@@ -715,9 +715,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/frp
 
-# Include vndk/vndk-sp/ll-ndk modules
-PRODUCT_PACKAGES += vndk_package
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Override heap growth limit due to high display density on device
