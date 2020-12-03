@@ -407,6 +407,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 PRODUCT_PACKAGES += \
     SecureElement
 
