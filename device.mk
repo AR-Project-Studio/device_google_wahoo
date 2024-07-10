@@ -412,6 +412,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GcamPrebuilt
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
