@@ -13,6 +13,12 @@
      "repository":"LineageOS/android_device_google_gs-common",
      "target_path":"device/google/gs-common",
      "remote":"github",
-     "branch":"lineage-22"
+     "branch":"lineage-22.0"
+   },
+   {
+     "repository":"LineageOS/android_packages_apps_ElmyraService",
+     "target_path":"packages/apps/ElmyraService",
+     "remote":"github",
+     "branch":"lineage-22.0"
    }
 ]
