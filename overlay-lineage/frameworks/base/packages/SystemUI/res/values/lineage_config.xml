@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020-2024 The LineageOS Project
+     Copyright (C) 2018-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,12 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Whether to show volume steps settings -->
-    <bool name="config_supports_volume_steps" translatable="false">true</bool>
-
-    <!-- Show battery Design Capacity -->
-    <bool name="config_show_battery_design_capacity">false</bool>
-
-    <!-- Show battery Maximum Capacity -->
-    <bool name="config_show_battery_maximum_capacity">false</bool>
+    <!-- Doze: does the double tap sensor need a proximity check? -->
+    <bool name="doze_double_tap_proximity_check">true</bool>
 </resources>
