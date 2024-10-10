@@ -839,7 +839,7 @@ PRODUCT_PACKAGES += \
     libhwbinder
 
 # Setting vendor SPL
-VENDOR_SECURITY_PATCH := "2020-10-05"
+VENDOR_SECURITY_PATCH := 2020-10-05
 
 # Task profiles
 PRODUCT_COPY_FILES += \
