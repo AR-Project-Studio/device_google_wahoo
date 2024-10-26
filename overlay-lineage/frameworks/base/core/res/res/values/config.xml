@@ -32,9 +32,4 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
-
-    <!-- Whether device supports sensor based doze customizations -->
-    <bool name="config_dozePulseTilt">true</bool>
-    <bool name="config_dozePulseProximity">true</bool>
-    <bool name="config_deviceHaveWakeUpProximity">true</bool>
 </resources>
