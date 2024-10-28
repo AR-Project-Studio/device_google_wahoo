@@ -475,6 +475,7 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libgnss \
     liblocation_api \
+    libsqlite.vendor \
     android.hardware.gnss@1.0-impl-qti \
     android.hardware.gnss@1.0-service-qti
 
@@ -602,6 +603,7 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
+    libnetutils.vendor \
     PresencePolling \
     RcsService
 
