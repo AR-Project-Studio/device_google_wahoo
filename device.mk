@@ -415,6 +415,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ElmyraService
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+     RemovePkgs
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
