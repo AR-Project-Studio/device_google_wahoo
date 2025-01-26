@@ -409,6 +409,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
 
+# Camera
+PRODUCT_PACKAGES += \
+    GcamPrebuilt
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
